@@ -1,0 +1,33 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 30px grey;
+    font-family: 'Xanh Mono', monospace;
+}
+.NOTE {
+    font-size: 14px;
+    color: crimson;
+}
+.Copy_Right {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    font-size: 16px;
+    background-color: bisque;
+}
+canvas {
+    border: 3px solid black;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime {
+    0%{box-shadow: 5px 5px 30px blue;}
+    25%{box-shadow: 5px 5px 30px green;}
+    50%{box-shadow: 5px 5px 30px yellow;}
+    75%{box-shadow: 5px 5px 30px red;}
+    100%{box-shadow: 5px 5px 30px cyan;}
+}
